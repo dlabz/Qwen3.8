@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir":"auto",
+  "allowScripts": {
+    "allow": ["npm:protobufjs@6.11.6", "npm:sharp@0.32.6"],
+    "deny": []
+  }
+}
