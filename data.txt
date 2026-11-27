@@ -1,0 +1,521 @@
+deno run -A stream_all_shards.js
+====================================================
+ 🚀 FULL BIVECTOR STREAMING FOR ALL 18 SHARDS
+====================================================
+
+
+----------------------------------------------------
+⏳ [1/18] Strimovanje šarda: model-00001-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.0.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.0.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.0.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.0.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.0.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.0.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.0.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.0.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.0.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.0.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.0.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.1.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.1.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.1.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.1.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.1.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.1.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.1.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.1.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.1.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.1.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.1.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.2.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.2.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.2.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.2.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.2.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.2.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.2.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.2.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.2.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.2.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.2.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.3.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.3.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.3.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.3.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.3.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.3.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.3.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.3.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.3.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.4.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.4.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.4.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.4.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.visual.blocks.0.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.0.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.0.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.0.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.1.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.1.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.1.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.1.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.10.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.10.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.10.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.10.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.11.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.11.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.11.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.11.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.12.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.12.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.12.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.12.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.13.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.13.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.13.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.13.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.14.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.14.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.14.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.14.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.15.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.15.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.15.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.15.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.16.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.16.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.16.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.16.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.17.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.17.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.17.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.17.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.18.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.18.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.18.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.18.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.19.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.19.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.19.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.19.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.2.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.2.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.2.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.2.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.20.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.20.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.20.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.20.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.21.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.21.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.21.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.21.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.22.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.22.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.22.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.22.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.23.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.23.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.23.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.23.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.24.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.24.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.24.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.24.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.25.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.25.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.25.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.25.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.26.attn.proj.weight       | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.26.attn.qkv.weight        | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.26.mlp.linear_fc1.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.26.mlp.linear_fc2.weight  | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.3.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.3.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.3.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.3.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.4.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.4.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.4.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.4.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.5.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.5.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.5.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.5.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.6.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.6.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.6.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.6.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.7.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.7.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.7.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.7.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.8.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.8.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.8.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.8.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.9.attn.proj.weight        | Vektora: 259 | Bivektor dim: 9065
+  ✓ Tenzor: model.visual.blocks.9.attn.qkv.weight         | Vektora: 777 | Bivektor dim: 27195
+  ✓ Tenzor: model.visual.blocks.9.mlp.linear_fc1.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.blocks.9.mlp.linear_fc2.weight   | Vektora: 968 | Bivektor dim: 33880
+  ✓ Tenzor: model.visual.merger.linear_fc1.weight         | Vektora: 4147 | Bivektor dim: 145145
+  ✓ Tenzor: model.visual.merger.linear_fc2.bias           | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.visual.merger.linear_fc2.weight         | Vektora: 4608 | Bivektor dim: 161280
+  ✓ Tenzor: model.visual.patch_embed.proj.weight          | Vektora: 345 | Bivektor dim: 12075
+  ✓ Tenzor: model.visual.pos_embed.weight                 | Vektora: 518 | Bivektor dim: 18130
+✓ Šard 1 uspešno obrađen (159 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [2/18] Strimovanje šarda: model-00002-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.4.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.4.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.4.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.4.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.4.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.4.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.4.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.5.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.5.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.5.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.5.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.5.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.5.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.5.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.5.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.5.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.5.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.5.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.6.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.6.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.6.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.6.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.6.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.6.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.6.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.6.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.6.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.6.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.6.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.7.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.7.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.7.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.7.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.7.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.7.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.7.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.7.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.7.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+✓ Šard 2 uspešno obrađen (38 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [3/18] Strimovanje šarda: model-00003-of-00018.safetensors
+----------------------------------------------------
+❌ Greška pri strimovanju šarda model-00003-of-00018.safetensors: Array buffer allocation failed
+
+----------------------------------------------------
+⏳ [4/18] Strimovanje šarda: model-00004-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.10.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.10.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.10.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.10.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.10.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.10.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.10.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.10.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.10.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.10.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.10.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.11.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.11.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.11.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.11.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.11.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.11.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.11.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.11.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.11.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.12.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.12.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.12.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.12.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.12.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.12.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.12.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.12.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.12.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.12.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.12.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.13.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.13.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.13.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.13.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.13.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.13.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.13.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.13.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.13.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.13.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.13.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.14.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.14.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.14.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.14.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.14.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.14.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.14.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.14.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.14.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.14.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.14.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.15.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.15.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+✓ Šard 4 uspešno obrađen (55 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [5/18] Strimovanje šarda: model-00005-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.15.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.15.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.15.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.15.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.15.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.15.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.15.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.8.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.8.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.8.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.8.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.8.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.8.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.8.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.8.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.8.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.8.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.8.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.9.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.9.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.9.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.9.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.9.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.9.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.9.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.9.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.9.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.9.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.9.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+✓ Šard 5 uspešno obrađen (29 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [6/18] Strimovanje šarda: model-00006-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.16.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.16.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.16.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.16.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.16.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.16.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.16.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.16.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.16.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.16.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.16.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.17.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.17.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.17.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.17.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.17.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.17.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.17.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.17.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.17.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.17.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.17.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.18.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.18.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.18.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.18.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.18.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.18.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.18.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.18.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.18.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.18.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.18.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.19.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.19.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.19.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.19.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.19.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.19.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.19.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.19.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.19.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.20.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.20.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.20.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.20.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.20.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.20.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.20.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.20.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.20.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.20.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.20.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.21.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.21.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.21.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.21.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.21.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.21.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+✓ Šard 6 uspešno obrađen (59 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [7/18] Strimovanje šarda: model-00007-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.21.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.21.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+❌ Greška pri strimovanju šarda model-00007-of-00018.safetensors: error reading a body from connection
+
+----------------------------------------------------
+⏳ [8/18] Strimovanje šarda: model-00008-of-00018.safetensors
+----------------------------------------------------
+❌ Greška pri strimovanju šarda model-00008-of-00018.safetensors: error reading a body from connection
+
+----------------------------------------------------
+⏳ [9/18] Strimovanje šarda: model-00009-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.29.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.29.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.29.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.29.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.29.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.30.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.30.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.30.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.30.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.30.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.30.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.30.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+❌ Greška pri strimovanju šarda model-00009-of-00018.safetensors: error reading a body from connection
+
+----------------------------------------------------
+⏳ [10/18] Strimovanje šarda: model-00010-of-00018.safetensors
+----------------------------------------------------
+❌ Greška pri strimovanju šarda model-00010-of-00018.safetensors: fetch failed
+
+----------------------------------------------------
+⏳ [11/18] Strimovanje šarda: model-00011-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.37.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.37.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.37.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.37.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.37.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.38.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.38.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.38.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.38.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.38.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.38.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.38.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.38.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.38.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.38.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.38.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.39.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.39.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.39.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.39.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.39.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.39.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.39.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.39.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.39.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+✓ Šard 11 uspešno obrađen (25 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [12/18] Strimovanje šarda: model-00012-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.40.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.40.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.40.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.40.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.40.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.40.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.40.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.40.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.40.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.40.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.40.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.41.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.41.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.41.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.41.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.41.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.41.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.41.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.41.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.41.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.41.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.41.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.42.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.42.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.42.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.42.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.42.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.42.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.42.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.42.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.42.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.42.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.42.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.43.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.43.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.43.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.43.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.43.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.43.self_attn.k_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.43.self_attn.o_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.43.self_attn.q_proj.weight | Vektora: 12288 | Bivektor dim: 430080
+  ✓ Tenzor: model.language_model.layers.43.self_attn.v_proj.weight | Vektora: 1024 | Bivektor dim: 35840
+  ✓ Tenzor: model.language_model.layers.44.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.44.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.44.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.44.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.44.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.44.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.44.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.44.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.44.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.44.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.44.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.45.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.45.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.45.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.45.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.45.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.45.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+✓ Šard 12 uspešno obrađen (59 tenzora sklopljeno u bivektore).
+
+----------------------------------------------------
+⏳ [13/18] Strimovanje šarda: model-00013-of-00018.safetensors
+----------------------------------------------------
+  ✓ Tenzor: model.language_model.layers.45.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.45.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.45.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.45.mlp.up_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.45.post_attention_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.46.input_layernorm.weight | Vektora: 1 | Bivektor dim: 35
+  ✓ Tenzor: model.language_model.layers.46.linear_attn.conv1d.weight | Vektora: 8 | Bivektor dim: 280
+  ✓ Tenzor: model.language_model.layers.46.linear_attn.in_proj_a.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.46.linear_attn.in_proj_b.weight | Vektora: 48 | Bivektor dim: 1680
+  ✓ Tenzor: model.language_model.layers.46.linear_attn.in_proj_qkv.weight | Vektora: 10240 | Bivektor dim: 358400
+  ✓ Tenzor: model.language_model.layers.46.linear_attn.in_proj_z.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.46.linear_attn.out_proj.weight | Vektora: 6144 | Bivektor dim: 215040
+  ✓ Tenzor: model.language_model.layers.46.mlp.down_proj.weight | Vektora: 17408 | Bivektor dim: 609280
+  ✓ Tenzor: model.language_model.layers.46.mlp.gate_proj.weight | Vektora: 17408 | Bivektor dim: 609280
